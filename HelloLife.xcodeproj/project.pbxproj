@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231F598A224628C000950797 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F5989224628C000950797 /* LayoutView.swift */; };
+		231F598C2247C34700950797 /* TKHBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F598B2247C34700950797 /* TKHBasicViewController.swift */; };
+		231F598E2247C35F00950797 /* TKHPopoverStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F598D2247C35F00950797 /* TKHPopoverStyle.swift */; };
+		2359D1942245D75100FCEF82 /* TKHBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359D1932245D75100FCEF82 /* TKHBackgroundView.swift */; };
+		2392D2A72243B77800DE331A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392D2A62243B77800DE331A /* AppDelegate.swift */; };
+		2392D2A92243B77800DE331A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392D2A82243B77800DE331A /* ViewController.swift */; };
+		2392D2AC2243B77800DE331A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2392D2AA2243B77800DE331A /* Main.storyboard */; };
+		2392D2AE2243B77900DE331A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2392D2AD2243B77900DE331A /* Assets.xcassets */; };
+		2392D2B12243B77900DE331A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2392D2AF2243B77900DE331A /* LaunchScreen.storyboard */; };
+		C6FDB2A60A249E7F4E6247BC /* Pods_HelloLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50671BCCA1CB10EA8A6CEFDC /* Pods_HelloLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231F5989224628C000950797 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
+		231F598B2247C34700950797 /* TKHBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKHBasicViewController.swift; sourceTree = "<group>"; };
+		231F598D2247C35F00950797 /* TKHPopoverStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKHPopoverStyle.swift; sourceTree = "<group>"; };
+		2359D1932245D75100FCEF82 /* TKHBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKHBackgroundView.swift; sourceTree = "<group>"; };
+		2392D2A32243B77800DE331A /* HelloLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2392D2A62243B77800DE331A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2392D2A82243B77800DE331A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2392D2AB2243B77800DE331A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2392D2AD2243B77900DE331A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2392D2B02243B77900DE331A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2392D2B22243B77900DE331A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50671BCCA1CB10EA8A6CEFDC /* Pods_HelloLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E396C819014636ACAD564B /* Pods-HelloLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLife.debug.xcconfig"; path = "Target Support Files/Pods-HelloLife/Pods-HelloLife.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8228050958C30E8EDA7C65 /* Pods-HelloLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLife.release.xcconfig"; path = "Target Support Files/Pods-HelloLife/Pods-HelloLife.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2392D2A02243B77800DE331A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDB2A60A249E7F4E6247BC /* Pods_HelloLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2359D1922245D70200FCEF82 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				2359D1932245D75100FCEF82 /* TKHBackgroundView.swift */,
+				231F5989224628C000950797 /* LayoutView.swift */,
+				231F598B2247C34700950797 /* TKHBasicViewController.swift */,
+				231F598D2247C35F00950797 /* TKHPopoverStyle.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		2392D29A2243B77700DE331A = {
+			isa = PBXGroup;
+			children = (
+				2359D1922245D70200FCEF82 /* WebView */,
+				2392D2A52243B77800DE331A /* HelloLife */,
+				2392D2A42243B77800DE331A /* Products */,
+				C210AE1CE045A32E61B142A8 /* Pods */,
+				5D9BAB06E6E63BBB1B70E363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2392D2A42243B77800DE331A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2392D2A32243B77800DE331A /* HelloLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2392D2A52243B77800DE331A /* HelloLife */ = {
+			isa = PBXGroup;
+			children = (
+				2392D2A62243B77800DE331A /* AppDelegate.swift */,
+				2392D2A82243B77800DE331A /* ViewController.swift */,
+				2392D2AA2243B77800DE331A /* Main.storyboard */,
+				2392D2AD2243B77900DE331A /* Assets.xcassets */,
+				2392D2AF2243B77900DE331A /* LaunchScreen.storyboard */,
+				2392D2B22243B77900DE331A /* Info.plist */,
+			);
+			path = HelloLife;
+			sourceTree = "<group>";
+		};
+		5D9BAB06E6E63BBB1B70E363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50671BCCA1CB10EA8A6CEFDC /* Pods_HelloLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C210AE1CE045A32E61B142A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E396C819014636ACAD564B /* Pods-HelloLife.debug.xcconfig */,
+				EA8228050958C30E8EDA7C65 /* Pods-HelloLife.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2392D2A22243B77800DE331A /* HelloLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2392D2B52243B77900DE331A /* Build configuration list for PBXNativeTarget "HelloLife" */;
+			buildPhases = (
+				4DD4F0271E115EA8479E2E5D /* [CP] Check Pods Manifest.lock */,
+				2392D29F2243B77800DE331A /* Sources */,
+				2392D2A02243B77800DE331A /* Frameworks */,
+				2392D2A12243B77800DE331A /* Resources */,
+				CE8DAD2DF36EA0E8C67A1E6E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLife;
+			productName = HelloLife;
+			productReference = 2392D2A32243B77800DE331A /* HelloLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2392D29B2243B77700DE331A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = STAR;
+				TargetAttributes = {
+					2392D2A22243B77800DE331A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2392D29E2243B77700DE331A /* Build configuration list for PBXProject "HelloLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2392D29A2243B77700DE331A;
+			productRefGroup = 2392D2A42243B77800DE331A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2392D2A22243B77800DE331A /* HelloLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2392D2A12243B77800DE331A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2392D2B12243B77900DE331A /* LaunchScreen.storyboard in Resources */,
+				2392D2AE2243B77900DE331A /* Assets.xcassets in Resources */,
+				2392D2AC2243B77800DE331A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DD4F0271E115EA8479E2E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8DAD2DF36EA0E8C67A1E6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLife/Pods-HelloLife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloLife/Pods-HelloLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2392D29F2243B77800DE331A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231F598A224628C000950797 /* LayoutView.swift in Sources */,
+				2392D2A92243B77800DE331A /* ViewController.swift in Sources */,
+				2359D1942245D75100FCEF82 /* TKHBackgroundView.swift in Sources */,
+				231F598E2247C35F00950797 /* TKHPopoverStyle.swift in Sources */,
+				231F598C2247C34700950797 /* TKHBasicViewController.swift in Sources */,
+				2392D2A72243B77800DE331A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2392D2AA2243B77800DE331A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2392D2AB2243B77800DE331A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2392D2AF2243B77900DE331A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2392D2B02243B77900DE331A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2392D2B32243B77900DE331A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2392D2B42243B77900DE331A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2392D2B62243B77900DE331A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E396C819014636ACAD564B /* Pods-HelloLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9D84HHJLL;
+				INFOPLIST_FILE = HelloLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.tkpensiontest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2392D2B72243B77900DE331A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8228050958C30E8EDA7C65 /* Pods-HelloLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9D84HHJLL;
+				INFOPLIST_FILE = HelloLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.tkpensiontest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2392D29E2243B77700DE331A /* Build configuration list for PBXProject "HelloLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2392D2B32243B77900DE331A /* Debug */,
+				2392D2B42243B77900DE331A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2392D2B52243B77900DE331A /* Build configuration list for PBXNativeTarget "HelloLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2392D2B62243B77900DE331A /* Debug */,
+				2392D2B72243B77900DE331A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2392D29B2243B77700DE331A /* Project object */;
+}
